@@ -50,10 +50,16 @@ Copy the environment file and configure your database:
 ```bash
 cp .env .env.local
 ```
+Generate APP_SECRET:
+
+```bash
+   php -r "echo bin2hex(random_bytes(16));"
+```
 
 Edit `.env.local`:
 
 ```env
+APP_SECRET=paste_generated_secret_here
 DATABASE_URL="mysql://username:password@127.0.0.1:3306/product_api?serverVersion=8.0"
 ```
 
