@@ -1,0 +1,120 @@
+
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+/.phpunit.cache/
+###< phpunit/phpunit ###
+
+# ============================================
+# Symfony .gitignore
+# ============================================
+
+# --------------------------------------------
+# Environment Files (IMPORTANT - Security)
+# --------------------------------------------
+.env.local
+.env.local.php
+.env.*.local
+
+# --------------------------------------------
+# Symfony Directories
+# --------------------------------------------
+/var/
+/vendor/
+/public/bundles/
+
+# --------------------------------------------
+# PHPUnit
+# --------------------------------------------
+.phpunit.cache/
+.phpunit.result.cache
+/coverage/
+phpunit.xml
+
+# --------------------------------------------
+# Composer
+# --------------------------------------------
+composer.phar
+composer.lock
+
+# --------------------------------------------
+# IDE and Editors
+# --------------------------------------------
+# PhpStorm
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# NetBeans
+nbproject/
+
+# Eclipse
+.project
+.buildpath
+.settings/
+
+# --------------------------------------------
+# Operating System
+# --------------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.directory
+
+# --------------------------------------------
+# Logs and Databases
+# --------------------------------------------
+*.log
+*.sql
+*.sqlite
+*.db
+
+# --------------------------------------------
+# Build and Cache
+# --------------------------------------------
+/node_modules/
+/npm-debug.log
+/yarn-error.log
+/.php-cs-fixer.cache
+
+# --------------------------------------------
+# Docker (optional)
+# --------------------------------------------
+docker-compose.override.yml
+
+# --------------------------------------------
+# Misc
+# --------------------------------------------
+*.swp
+*.swo
+*.bak
+*.tmp
+*.temp
