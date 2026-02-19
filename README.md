@@ -315,8 +315,7 @@ The CI pipeline runs on every push and pull request:
 
 - ✅ Runs on PHP 8.2 and 8.3
 - ✅ Installs dependencies
-- ✅ Creates test database
-- ✅ Runs PHPUnit tests
+- ✅ Runs PHPUnit tests (with mocks)
 - ✅ Generates code coverage
 - ✅ Validates composer.json
 - ✅ Checks for security vulnerabilities
