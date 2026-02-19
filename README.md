@@ -50,6 +50,7 @@ Copy the environment file and configure your database:
 ```bash
 cp .env .env.local
 ```
+
 Generate APP_SECRET:
 
 ```bash
