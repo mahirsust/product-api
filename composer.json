@@ -1,6 +1,8 @@
 {
+    "name": "mahirsust/product-api",
+    "description": "RESTful API for managing products built with Symfony 7",
     "type": "project",
-    "license": "proprietary",
+    "license": "MIT",
     "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
