@@ -53,7 +53,7 @@ cp .env .env.local
 Generate APP_SECRET:
 
 ```bash
-   php -r "echo bin2hex(random_bytes(16));"
+php -r "echo bin2hex(random_bytes(16));"
 ```
 
 Edit `.env.local`:
