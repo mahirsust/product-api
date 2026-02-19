@@ -1,5 +1,7 @@
 # Product API
 
+![CI](https://github.com/mahirsust/product-api/actions/workflows/ci.yml/badge.svg)
+
 A RESTful API for managing products built with Symfony 7 and PHP 8.2. Features complete CRUD operations, Swagger documentation, and comprehensive test coverage.
 
 ## Features
@@ -296,6 +298,28 @@ xdg-open coverage/index.html
 | `composer test` | Run all tests |
 | `composer test:unit` | Run unit tests only |
 | `composer test:coverage` | Generate HTML coverage report |
+
+## CI
+
+This project uses GitHub Actions for continuous integration.
+
+### Workflows
+
+| Workflow | Trigger | Description |
+|----------|---------|-------------|
+| **CI** | Push, Pull Request | Runs tests, code quality checks |
+
+### CI Pipeline
+
+The CI pipeline runs on every push and pull request:
+
+- ✅ Runs on PHP 8.2 and 8.3
+- ✅ Installs dependencies
+- ✅ Creates test database
+- ✅ Runs PHPUnit tests
+- ✅ Generates code coverage
+- ✅ Validates composer.json
+- ✅ Checks for security vulnerabilities
 
 ## Error Responses
 
